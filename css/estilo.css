@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+main{
+    width: 1930px;
+    height: 1920px;
+    background-color: #e8b7df;
+    margin: 0 auto;
+}
+header{
+    width: 1930px;
+    height: 200px;
+    background-color: #B890C0;
+}
+nav{
+    width: 1930px;
+    height: 50px;
+    background-color: #db65a2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 6px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 24px;
+    transition: .8s;
+    /*line-height: 50px;*/
+}
+nav a:hover{
+    background-color: thistle;
+    transform: scale(1.2);
+}
+
+.contenido{
+    width: 1930px;
+    height: 1500px;
+
+}
+.personaje{
+    width: 400px;
+    height: 350px;
+    
+    margin-left: 33px;
+    margin-top: 20px; 
+    float: left;
+}
+.foto{
+    width: 400px;
+    height: 350px;
+   
+    float: center;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: #E89898 solid 4px;
+}
+.foto img{
+    height: 100%;
+}
+.texto{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(255, 239, 213, 0.5);
+    float: center;
+    margin-left: 33px;
+    padding: 20px;
+    border-bottom: #E89898 solid 4px;
+}
+.texto a{
+    color: #E89898;
+    text-decoration: none;
+    font-family: "Shadows Into Light", cursive;
+    font-size: large;
+}
+.texto a:hover{
+    color: #B890C0;
+    text-decoration: underline;
+}
+footer{
+    width: 1930px;
+    height: 250px;
+    background-color: #B890C0;
+}
+.conferencias{
+    background-color:;
+    padding: 10px;
+}
+iframe{
+    margin-left: 30px;
+}
